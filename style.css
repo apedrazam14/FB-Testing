@@ -1,0 +1,38 @@
+.Menu{ 
+    float:left;
+    width: 20%;
+    border: black solid 1px;
+    margin: 0px;
+}
+
+.Publicidad{
+    float:right;
+    width: 18%;
+    border: black solid 1px;
+    margin: 0px;
+}
+
+.Noticias{
+    float:left;
+    width: 60%;
+    border: black solid 1px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:600px) {
+    .Noticias {
+        width: 80%;
+        
+    }
+    .Menu{
+        display: none;
+    }
+
+}
+
+#Minnie{
+    width: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto; 
+}
